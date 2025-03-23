@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+</head>
+<body>
+    <tr>
+        <td align="right">Name</td>
+        <td><input type="text" name="Name" placeholder="Enter Nmae"required></td>
+    </tr>
+    <tr>
+        <td align="right">Email</td>
+        <td><input type="email" name="Email" placeholder="Enter Email" required></td>
+    </tr>
+    <tr>
+        <td align="right">Zip code</td>
+        <td><input type="number" name="code" placeholder="Enter Zip code" maxlength="5" required></td>
+    </tr>
+    <tr>
+        <td align="right">Country</td>
+        <td><select name="Country">
+            <option value="-1"selected>[choose yours]</option>
+            <option value="1">USA</option><option value="2">UK</option>
+            <option value="3">INDIA</option>
+        </select></td>
+    </tr>
+
+    <tr>
+        <td align="right">How old are yo?</td>
+        <td><input type="number" min="12" max="120"step="1" id="n1"name="age" pattern="\d+"></td>
+    </tr>
+    <tr>
+        <td align="right"><legend>Do you have a driver's license?<abbr title="This field is mandatory" aria-label="re
+            ">*</abbr></legend></td>
+        <td><input type="radio"  required name="driver" id="r1" value="yes"><label for="r1">yes</label>
+        <input type ="radio" required name="driver" id="r2" value="no"><label for="r2">No</label></td>
+    </tr>
+    <tr>
+        <td align="right">Leave a short message</td>
+        <td><textarea name="msg" id="t3" maxlength="140" rows="5"></textarea></td>
+    </tr>
+    <tr><td align="right"></td> <td> <input type="submit" value="submit"/></td></tr>
+</table>
+</form>
+</body>
+</html>

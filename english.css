@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    text-transform: capitalize;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.dem{
+    background-image: url(images/boy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cfs{
+    display: flex;
+    padding: 2vw;
+    list-style: none;
+    margin-left: 50%;
+    grid-gap: 6rem;
+    position:fixed;
+}
+
+.cfs a:hover{
+   color :pink;
+}
+ 
+
+.web h2{
+    font-size: 37px;
+    margin-bottom: 2rem;
+}
+
+
+.web h3{
+    margin-bottom:2rem;
+}
+
+
+.web h4{
+    padding-top : 2rem;
+    padding-bottom: 20px;
+    width: 50%;
+    margin-left: 310px;
+}
+
+.web{
+    padding-top: 15rem;
+     text-align: center;
+}
+
+.air{
+      margin-bottom: 5rem;
+    background-color:rgb(255, 253, 251);
+    display: flex; 
+}
+
+.air img{
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+}
+
+.gog h3{
+    margin-left: 9rem;
+}
+
+.bob{
+    padding-top: 10rem;
+}
+
+.bob h4{
+    margin-left: 50px;
+}
+
+
+.bob p{
+    margin-left: 3rem;
+    padding-top: 4rem;
+}
+
+.qwq{
+    margin-left:10rem;
+}
+
+.cas li a{
+    background-color: bisque;
+    margin-left: 42%;
+    padding: 7px;
+    margin-bottom:4rem;
+}
+
+.pro{
+    padding: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 4rem;
+    margin-top: 60px;
+    background-color: beige;
+}
+
+.pro h3{
+       margin-bottom: 4rem;
+       margin-top: 5rem;
+       padding: 6px;
+       margin-left: 42%;
+       margin-right: 42%;
+    }
+
+.pro img{
+    glyph-orientation-horizontal: 0grad;
+    columns: auto;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    border-radius: 6px;
+}
